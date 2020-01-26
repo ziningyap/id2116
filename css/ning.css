@@ -1,0 +1,44 @@
+h1 {
+color:white;
+font-size: 50px;
+font-family: 'Bebas Neue';
+letter-spacing: 2px;
+text-align: left;
+height: auto;
+width: 500px;
+background-color: #ff7f50;
+padding: 10px 30px 10px 30px;
+margin-left: 30px;
+margin-bottom: 0px;
+}
+
+h2 {
+font-family: 'Bebas Neue';
+letter-spacing: 2px;
+text-align: right; 
+margin-right: 200px;
+}
+
+ul {
+font-family: 'Roboto Condensed';
+margin-right: 100px;
+padding-left: 70%;
+text-align: left;
+list-style-position:inside;
+}
+
+body {
+	text-align: center;
+}
+
+img {
+	float: left;
+	padding: 0px 50px;
+}
+
+p {
+font-family: 'Roboto Condensed';
+margin-right: 100px;
+padding: 50px 100px 50px 300px;
+text-align: left;
+}
