@@ -32,3 +32,16 @@
     float: left;
     padding: 0px 50px;
      }
+    
+     h2 {
+      color: grey;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px; 
+      text-align: left;
+      height: auto;
+      width: 900px;
+      background-color: white;
+      padding: 10px 30px 10px 0px;
+      margin-left: 0px;
+      margin-bottom: 100px;
+     }
