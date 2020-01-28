@@ -25,8 +25,8 @@
       width: 900px;
       background-color: white;
       padding: 10px 30px 10px 0px;
-      margin-left: 0px;
-      margin-bottom: 100px;
+      margin-left: 510px;
+      margin-bottom: 200px;
     }
     img {
     float: left;
@@ -34,11 +34,31 @@
      }
     
     h2 {
-      color: white;
+      color: grey;
       font-family: 'Playfair Display', serif;
       font-size: 20px; 
-      text-align: right;
-      height: auto;
+      text-align: left;
+      letter-spacing: 0.2px;
+      margin-left: 510px;
+      margin-bottom: 0px;
      }
+  
+   ul {
+     color: grey;
+      font-family: 'Playfair Display', serif;
+      font-size: 15px; 
+      text-align: left;
+      height: auto;
+      width: 900px;
+      background-color: white;
+      padding: 10px 30px 10px 0px;
+      margin-left: 530px;
+      margin-bottom: 0px;
+        }
 
+a{
+  color: #f0be6f;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+}
      
