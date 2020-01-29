@@ -16,7 +16,7 @@ img.ning{
     height:100px;
     opacity: 0;
     filter: alpha(opacity=0);
-    padding-left: 40%; 
+    padding-left: 45%; 
     
 }
 
@@ -30,7 +30,7 @@ img.lewis{
     height:100px;
     opacity: 0;
     filter: alpha(opacity=0);
-    padding-right: 40%;
+    padding-left: 55%;
 }
     img:hover {
     opacity: 1;
