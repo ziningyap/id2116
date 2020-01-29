@@ -36,3 +36,13 @@ img.lewis{
     }
 
 
+.weeknumbers{
+    color: #c9d4c5;
+    font-family: 'Merriweather', serif; font-weight: lighter;
+    font-size: 15px; 
+    text-align: center;
+    height: auto;
+    margin: 600px, center;
+        
+
+}
