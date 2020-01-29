@@ -30,7 +30,7 @@ img.lewis{
     height:100px;
     opacity: 0;
     filter: alpha(opacity=0);
-    padding-left: 55%;
+    padding-right: 35%;
 }
     img:hover {
     opacity: 1;
@@ -47,3 +47,29 @@ img.lewis{
     margin: 600px, center;    
 
 }
+
+.leftsquare{
+    background-color: #a24d37;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.leftsquare:hover {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    }
+
+.rightsquare{
+    background-color: #a08746;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    filter: alpha(opacity=100)    
+}
+
+.rightsquare:hover {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    }
