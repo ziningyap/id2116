@@ -16,7 +16,8 @@ img.ning{
     height:100px;
     opacity: 0;
     filter: alpha(opacity=0);
-    margin: 300px, 50%;
+    top:50%;
+    right:40%;
 }
     img:hover {
     opacity: 1;
@@ -28,7 +29,8 @@ img.lewis{
     height:100px;
     opacity: 0;
     filter: alpha(opacity=0);
-    margin: 300px, 70%;
+    top:50%;
+    left:40%;
 }
     img:hover {
     opacity: 1;
@@ -42,7 +44,6 @@ img.lewis{
     font-size: 15px; 
     text-align: center;
     height: auto;
-    margin: 600px, center;
-        
+    margin: 600px, center;    
 
 }
