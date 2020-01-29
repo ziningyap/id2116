@@ -1,4 +1,14 @@
+body {
+    background-color:#1a273d ;
+  }
 
+h1{
+    color: #f5f4e9;
+    font-family: 'Merriweather', serif;
+    font-size: 90px; 
+    text-align: center;
+    height: auto;
+}
     img:hover {
     transform: scale(1.1);
     }
