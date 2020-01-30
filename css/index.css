@@ -27,7 +27,7 @@ img.lewis{
     height:100px;
     opacity: 0;
     filter: alpha(opacity=0);
-}*/
+}
 
 .weeknumbers{
     color: #c9d4c5;
@@ -75,4 +75,15 @@ a:hover {
 
 .colourRight:hover {
 background: url("img/lewis plygrnd resize.jpg") no-repeat;
+    }*/
+
+ img.ning
+    {
+      width: 100px;
+      height: 100px;
+      background: url("img/lewis plygrnd resize.jpg") no-repeat;
     }
+    img.ning:hover {
+      width: 100px;
+      height: 100px;
+      background: url("img/ning.jpg") no-repeat;
