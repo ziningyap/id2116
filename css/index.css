@@ -48,10 +48,14 @@ img.lewis{
     font-size: 15px; 
     text-align: center;
     height: auto;
-    margin: 800px, center;    
+    margin: 800px, center;  
 
 }
 
+p.weeknumbers {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
 a:link {
     color: #c9d4c5;
     text-decoration: none;
