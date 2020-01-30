@@ -77,14 +77,14 @@ a:hover {
 background: url("img/lewis plygrnd resize.jpg") no-repeat;
     }*/
 
- img.ning
+ .ning
     {
       width: 100px;
       height: 100px;
       display: block;
       background: url("https://i.ibb.co/C2WLBZR/Layer-1.png") no-repeat;
     }
-    img.ning:hover {
+    .ning:hover {
       width: 100px;
       height: 100px;
       background: url("https://i.ibb.co/mR3m04j/Layer-1-copy.png") no-repeat;
