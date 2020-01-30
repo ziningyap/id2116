@@ -60,9 +60,6 @@ a:hover {
          
     }
     
-        .ning:hover {
-          background: "img/lewis plygrnd resize.jpg"
-      }
     
     .weeknumbers{
         color: #c9d4c5;
@@ -89,11 +86,11 @@ a:hover {
       width: 100% ;
       height: 100%;
       transition: background-image 0s;
-      background-image:url("https://i.ibb.co/9hH2YDm/ningbef.jpg") no-repeat;
+      background-image:url("https://i.ibb.co/QPxf4mL/ningbef930.jpg");
     }
     
     #ning:hover {
-      background-image:url("https://i.ibb.co/Mgw3fK4/ningaft.jpg") no-repeat;
+      background-image:url("https://i.ibb.co/G0h5TGB/ningaft930.jpg");
     }
     
     .lefthalf{
@@ -108,11 +105,11 @@ a:hover {
       width: 100% ;
       height: 100%;
       transition: background-image 0s;
-      background-image:url("https://i.ibb.co/rG0g7k8/lewisbef.jpg") no-repeat;
+      background-image:url("https://i.ibb.co/9hW62vG/lewisbef930.jpg");
     }
     
     #lewis:hover {
-      background-image:url("https://i.ibb.co/2K1m6T1/lewisaft.jpg") no-repeat;
+      background-image:url("https://i.ibb.co/XCJWBGd/lewisaft930.jpg");
     }
     
     .righthalf{
@@ -125,7 +122,7 @@ a:hover {
     .journal {
         position: absolute;
         left:50%;
-        top: 50%;
+        top: 10%;
         transform: translate(-50%, 550%);
         
     }
