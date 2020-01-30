@@ -56,7 +56,7 @@ p.weeknumbers {
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
-a:link {
+p.weeknumbers.a:link {
     color: #c9d4c5;
     text-decoration: none;
     opacity: 1;
