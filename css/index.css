@@ -59,7 +59,7 @@ a:link {
 }
 
 a:hover {
-   transform: scale(2);
+   color: #a24d37;
     }
 
 .colourLeft{
