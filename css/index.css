@@ -52,21 +52,21 @@ img.lewis{
 
 }
 
-p.weeknumbers {
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-}
-p.weeknumbers.a:link {
+a:link {
     color: #c9d4c5;
     text-decoration: none;
     opacity: 1;
     filter: alpha(opacity=100);
 }
 
-p.weeknumbers.a:hover {
+a:hover {
    color: #a24d37;
     }
 
+p.weeknumbers {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
 .colourLeft{
     background-color: #a24d37;
     width: 100px;
