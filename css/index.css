@@ -86,17 +86,19 @@ a:hover {
     
     #pig {
       margin:0 auto;
-      width:450px;
-      height:281px;
+      width:100%;
+      height:auto;
       transition: background-image 0s;
       background-image:url("https://cdn.mos.cms.futurecdn.net/j86BVMguzBFy5fY2wtpngP.jpg");
     }
 
+
+
     .pig {
   background-color: #ff9e2c;
   position: absolute;
-  left: 0px;
   width: 50%;
+  left: 0px;
 }
     }
     
