@@ -55,9 +55,8 @@ img.lewis{
 a:link {
     color: #c9d4c5;
     text-decoration: none;
-    opacity: 1;
-    filter: alpha(opacity=100);
 }
+
 
 a:hover {
    color: #a24d37;
