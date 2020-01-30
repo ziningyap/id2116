@@ -10,13 +10,7 @@ h1{
     height: auto;
     margin-top: 200px;
 }
- 
 
- .ning
-    {
-
-      background: url("img/ning.jpg") no-repeat;
-    }
     .ning:hover {
       background: url("img/lewis plygrnd resize.jpg") no-repeat;
   }
