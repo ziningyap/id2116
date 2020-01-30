@@ -12,7 +12,7 @@ h1{
 }
 
     .ning:hover {
-      background: url("img/lewis plygrnd resize.jpg") no-repeat;
+      background-image: "img/lewis plygrnd resize.jpg";
   }
 
 .weeknumbers{
