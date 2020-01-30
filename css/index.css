@@ -14,6 +14,7 @@ h1{
 .leftsquare.rightsquare{
     position: relative;
     display: inline-block;
+    margin: 200px, 50%;
 }  
 
 img.ning{
