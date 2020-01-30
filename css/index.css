@@ -14,11 +14,11 @@ h1{
 
 }  
 
-/*img.ning{
+img.ning{
     width:100px;
     height:100px;
-    opacity: 0;
-    filter: alpha(opacity=0);
+    /*opacity: 0;
+    filter: alpha(opacity=0);*/
     
 }
 
@@ -27,7 +27,7 @@ h1{
 img.lewis{
     width:100px;
     height:100px;
-    opacity: 0;
+    /*opacity: 0;
     filter: alpha(opacity=0);*/
 }
 
