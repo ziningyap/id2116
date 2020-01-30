@@ -1,4 +1,4 @@
-body {
+/*body {
     background-color:#1a273d ;
   }
 
@@ -26,6 +26,7 @@ h1{
       #googly1:hover {
         background-image:url("img/lewis plygrnd resize.jpg");
       }
+
 .weeknumbers{
     color: #c9d4c5;
     font-family: 'Merriweather', serif; font-weight: lighter;
@@ -44,5 +45,56 @@ a:link {
 
 a:hover {
    color: #a24d37;
-    }
+    }*/
 
+    body {
+        background-color:#1a273d ;
+      }
+    
+    h1{
+        color: #f5f4e9;
+        font-family: 'Merriweather', serif;
+        font-size: 60px; 
+        text-align: center;
+        height: auto;
+        margin-top: 200px;
+    }
+    
+        .ning:hover {
+          background: "img/lewis plygrnd resize.jpg"
+      }
+    
+    .weeknumbers{
+        color: #c9d4c5;
+        font-family: 'Merriweather', serif; font-weight: lighter;
+        font-size: 15px; 
+        text-align: center;
+        height: auto;
+        margin: 800px, center;
+    
+    }
+    
+    a:link {
+        color: #c9d4c5;
+        text-decoration: none;
+    }
+    
+    
+    a:hover {
+       color: #a24d37;
+        }
+    
+    #pig {
+      margin:0 auto;
+      width:450px;
+      height:281px;
+      transition: background-image 1s ease-in-out;
+      background-image:url("https://cdn.mos.cms.futurecdn.net/j86BVMguzBFy5fY2wtpngP.jpg");
+    }
+    
+    #pig:hover {
+      background-image:url("https://i.ibb.co/C2WLBZR/Layer-1.png");
+    }
+    
+    
+    
