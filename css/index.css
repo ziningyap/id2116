@@ -52,8 +52,9 @@ img.lewis{
 
 }
 
-a {
+a:link {
     color: #c9d4c5;
+    text-decoration: none;
 
 }
 
