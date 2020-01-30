@@ -17,8 +17,8 @@ h1{
 
 
     .pig:hover {
-      background: url("https://neilpatel.com/wp-content/uploads/2019/08/google.jpg") no-repeat;
-  }
+      scale: 1.5;
+}
 
 .weeknumbers{
     color: #c9d4c5;
