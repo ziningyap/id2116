@@ -63,7 +63,7 @@ p.weeknumbers.a:link {
     filter: alpha(opacity=100);
 }
 
-a:hover {
+p.weeknumbers.a:hover {
    color: #a24d37;
     }
 
