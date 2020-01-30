@@ -81,6 +81,7 @@ background: url("img/lewis plygrnd resize.jpg") no-repeat;
     {
       width: 100px;
       height: 100px;
+      display: block;
       background: url("https://i.ibb.co/C2WLBZR/Layer-1.png") no-repeat;
     }
     img.ning:hover {
