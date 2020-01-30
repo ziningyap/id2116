@@ -12,14 +12,20 @@ h1{
 }
 
     .ning:hover {
-      background-image: "img/lewis plygrnd resize.jpg";
-  }
+      background: "img/lewis plygrnd resize.jpg"
+    }
 
-
-    .pig:hover {
-    transform: scale(1.1);
-}
-
+    #googly1 {
+        margin:0 auto;
+        width:450px;
+        height:281px;
+        transition: background-image 1s ease-in-out;
+        background-image:url("img/ning.jpg");
+      }
+      
+      #googly1:hover {
+        background-image:url("img/lewis plygrnd resize.jpg");
+      }
 .weeknumbers{
     color: #c9d4c5;
     font-family: 'Merriweather', serif; font-weight: lighter;
