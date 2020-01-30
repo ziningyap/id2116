@@ -89,11 +89,11 @@ a:hover {
       width: 100% ;
       height: 100%;
       transition: background-image 0s;
-      background-image:url("img/ningbef.jpg");
+      background-image:url("https://i.ibb.co/GWZKcg0/ningbef.jpg");
     }
     
     #ning:hover {
-      background-image:url("img/ningaft.jpg");
+      background-image:url("https://i.ibb.co/Kr7HXKx/ningaft.jpg");
     }
     
     .lefthalf{
@@ -109,11 +109,11 @@ a:hover {
       width: 100% ;
       height: 100%;
       transition: background-image 0s;
-      background-image:url("img/lewisbef.jpg");
+      background-image:url("https://i.ibb.co/0jw93hm/lewisbef.jpg");
     }
     
     #lewis:hover {
-      background-image:url("img/lewisaft.jpg");
+      background-image:url("https://i.ibb.co/SNdnKg7/lewisaft.jpg");
     }
     
     .righthalf{
