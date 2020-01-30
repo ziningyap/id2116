@@ -63,10 +63,6 @@ a:hover {
    color: #a24d37;
     }
 
-p.weeknumbers {
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-}
 .colourLeft{
     background-color: #a24d37;
     width: 100px;
