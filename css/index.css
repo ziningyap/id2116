@@ -91,6 +91,14 @@ a:hover {
       transition: background-image 0s;
       background-image:url("https://cdn.mos.cms.futurecdn.net/j86BVMguzBFy5fY2wtpngP.jpg");
     }
+
+    .pig {
+  background-color: #ff9e2c;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+    }
     
     #pig:hover {
       background-image:url("https://i.ibb.co/C2WLBZR/Layer-1.png");
