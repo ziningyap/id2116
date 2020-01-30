@@ -12,22 +12,14 @@ h1{
 }
  
 
-img.ning{
-    width:100px;
-    height:100px;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    
-}
+ .ning
+    {
 
-
-
-img.lewis{
-    width:100px;
-    height:100px;
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
+      background: url("img/ning.jpg") no-repeat;
+    }
+    .ning:hover {
+      background: url("img/lewis plygrnd resize.jpg") no-repeat;
+  }
 
 .weeknumbers{
     color: #c9d4c5;
@@ -49,44 +41,3 @@ a:hover {
    color: #a24d37;
     }
 
-.colourLeft{
-    background-color: #a24d37;
-    width: 100px;
-    height: 100px;
-    opacity: 1;
-    filter: alpha(opacity=100);
-    position: absolute;
-
-}
-
-.colourLeft:hover {
-    background: url("img/ning.jpg") no-repeat;
-    }
-
-.colourRight{
-    background-color: #a08746;
-    width: 100px;
-    height: 100px;
-    opacity: 1;
-    filter: alpha(opacity=100);
-
- 
-}
-
-.colourRight:hover {
-background: url("img/lewis plygrnd resize.jpg") no-repeat;
-    }
-
- .ning
-    {
-      width: 100px;
-      height: 100px;
-      display: block;
-      background: url("https://i.ibb.co/C2WLBZR/Layer-1.png") no-repeat;
-    }
-    .ning:hover {
-      width: 100px;
-      height: 100px;
-      display: block;
-      background: url("https://i.ibb.co/mR3m04j/Layer-1-copy.png") no-repeat;
-  }
