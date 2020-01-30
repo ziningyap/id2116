@@ -66,6 +66,7 @@ a:hover {
     height: 100px;
     opacity: 1;
     filter: alpha(opacity=100);
+    position: absolute;
 
 }
 
@@ -80,6 +81,7 @@ a:hover {
     height: 100px;
     opacity: 1;
     filter: alpha(opacity=100);
+    position: absolute;
  
 }
 
