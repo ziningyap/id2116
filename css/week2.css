@@ -1,0 +1,32 @@
+.weeknumber {
+        position: absolute;
+        left:50%;
+        top: 15%;
+        transform: translate(-50%,-50%);
+        color: #a08746; 
+        font-family: 'Merriweather', serif;
+        font-size: 60px; 
+         
+    }
+
+
+body {
+	background-color: #f5f4e9;
+}
+
+.bktomain {
+	    position: absolute;
+        left:50%;
+        bottom: 50%;
+        transform: translate(-50%,400%);
+        color: #a08746;
+        font-family: 'Merriweather', serif;
+        font-size: 20px; 
+        text-align: center;
+         
+}
+
+.weeknumbers {
+  font-size: 15px; 
+}
+
