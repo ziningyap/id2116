@@ -30,7 +30,7 @@ body {
   font-size: 15px; 
 }
 
-a{
+a:link {
   color: #a08746;
   text-decoration: none;
 }
