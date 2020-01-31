@@ -11,11 +11,11 @@
 
 
 body {
-	background-color: #f5f4e9;
+    background-color: #f5f4e9;
 }
 
 .bktomain {
-	    position: absolute;
+        position: absolute;
         left:50%;
         bottom: 50%;
         transform: translate(-50%,400%);
@@ -30,7 +30,7 @@ body {
   font-size: 15px; 
 }
 
-a:link {
-  color: #a08746;
-  text-decoration: none;
-}
+    a:link {
+        color: #c9d4c5;
+        text-decoration: none;
+    }
