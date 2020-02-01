@@ -1,44 +1,94 @@
-h1 {
-color:white;
-font-size: 50px;
-font-family: 'Bebas Neue';
-letter-spacing: 2px;
-text-align: left;
-height: auto;
-width: 500px;
-background-color: #ff7f50;
-padding: 10px 30px 10px 30px;
-margin-left: 30px;
-margin-bottom: 0px;
-}
-
-h2 {
-font-family: 'Bebas Neue';
-letter-spacing: 2px;
-text-align: right; 
-margin-right: 200px;
-}
-
-ul {
-font-family: 'Roboto Condensed';
-margin-right: 100px;
-padding-left: 70%;
-text-align: left;
-list-style-position:inside;
-}
-
 body {
-	text-align: center;
+  background-color: #fffcfa
+}
+
+.circle{
+    position: absolute;
+    right: 0px;
+    width: 580px ;
+    height: 580px;
+    background-color: #ffd58a;
+    border-radius: 50%;
+    margin-top: -16%; margin-right: 80px;
+}
+
+.intro {
+  position: absolute;
+  left:50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
+  color: #558c81;
+  font-family: 'Josefin Sans', sans-serif; font-weight: 700;
+  font-size: 20px;
+  text-align: center;
 }
 
 img {
-	float: left;
-	padding: 0px 50px;
+  align:center;
 }
 
-p {
-font-family: 'Roboto Condensed';
-margin-right: 100px;
-padding: 50px 100px 50px 300px;
-text-align: left;
+.introtext {
+    position: absolute;
+    left: 0px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 8px 2px;
+    background-color: #fbf4ef;
+    border-radius: 50%;
+    margin-top: 5%; margin-left: 30px;
+}
+
+.text {
+  color: #174a6b;
+  font-family: 'Josefin Sans'; font-weight: 300;
+  line-height: 24px;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 20%;
+  text-align: center;
+}
+
+.strengths {
+  color: #558c81;  
+  position: absolute;
+    right: 0px;
+    width: 35%;
+    margin-top: 25%;
+    font-family: 'Josefin Sans'; font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 100px;
+   line-height: 25px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #174a6b;
+}
+
+a:hover {
+  color: #ffd58a;
+}
+
+.collapsible {
+  background-color: transparent;
+  color: #174a6b;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: right;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Josefin Sans'; font-weight: 700;
+}
+
+.active, .collapsible:hover {
+color: #ffd58a;
+}
+
+.content {
+  padding-left: 100px;
+  display: none;
+  overflow: hidden;
 }
