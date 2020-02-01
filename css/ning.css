@@ -71,7 +71,7 @@ a:hover {
   color: #ffd58a;
 }
 
-.collapsible {
+.strength {
   background-color: transparent;
   color: #174a6b;
   cursor: pointer;
@@ -83,7 +83,7 @@ a:hover {
   font-family: 'Josefin Sans'; font-weight: 700;
 }
 
-.active, .collapsible:hover {
+.active, .strength:hover {
 color: #ffd58a;
 }
 
