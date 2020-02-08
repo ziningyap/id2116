@@ -5,61 +5,71 @@
     }
     
     h1 {
+      position: absolute;
+      right: 0;
+      left:  70%;
       color: #c2cacf;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Inria Serif', serif;
       font-size: 35px; 
       text-align: center;
       height: auto;
-      width: 170px;
-      background-color: #0e1d2a;
-      padding: 20px 0px 20px 0px;
-      margin-left: 0px;
-      margin-bottom: 30px;
+      width: 300px;
+      
     }
-    
+
     p {
-  color: grey;
-      font-family: 'Playfair Display', serif;
-      font-size: 18px; 
+      color: grey;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16x; 
       text-align: left;
       height: auto;
       width: 900px;
-      background-color: white;
-      padding: 10px 30px 10px 0px;
-      margin-left: 510px;
-      margin-bottom: 200px;
+      position:absolute;
+      top: 30%;
     }
-    img {
-    float: left;
-    padding: 0px 0px;
-     }
     
-    h2 {
+    img {
+    position: absolute;
+    left: 40%;
+    bottom:-20%;
+    }
+    
+    .strengths{
+      position: absolute;
       color: grey;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Open Sans', sans-serif;
       font-size: 20px; 
       text-align: left;
       letter-spacing: 0.2px;
-      margin-left: 510px;
-      margin-bottom: 0px;
+      top: 70%
      }
+
+  
   
    ul {
-     color: grey;
-      font-family: 'Playfair Display', serif;
+      position: absolute;
+      color: grey;
+      font-family: 'Open Sans', sans-serif, light;
       font-size: 15px; 
       text-align: left;
       height: auto;
       width: 900px;
-      background-color: white;
-      padding: 10px 30px 10px 0px;
-      margin-left: 530px;
-      margin-bottom: 0px;
         }
 
+  .partner{
+      position: absolute;
+      color: grey;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px; 
+      text-align: left;
+      letter-spacing: 0.2px;
+      top: 100%;
+     }
+
+
 a{
-  color: #f0be6f;
-      font-family: 'Playfair Display', serif;
-      font-size: 20px;
+      color: #b8d8be;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
 }
      
