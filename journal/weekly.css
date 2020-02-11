@@ -18,7 +18,7 @@ body {
         position: absolute;
         left:50%;
         bottom: 50%;
-        transform: translate(-50%,400%);
+        transform: translate(-50%,300%);
         color: #a08746;
         font-family: 'Merriweather', serif;
         font-size: 20px; 
@@ -34,3 +34,27 @@ body {
         color: #c9d4c5;
         text-decoration: none;
     }
+
+.container {
+  position: relative;
+  text-align: center;
+  word-spacing: 50px;
+}
+
+
+.label {
+  position: relative;
+  text-align: center;
+  word-spacing: 120px;
+  color: #a24d37;
+}
+
+p {
+    margin-top: 180px;
+    text-align: center;
+    padding: 0, 60%;
+    line-height: 2;
+    color: #a24d37; 
+    font-family: 'Merriweather', serif;
+    font-size: 14px; 
+}
