@@ -1,17 +1,23 @@
 .weeknumber {
     position: absolute;
     left:50%;
-    top: 15%;
-    transform: translate(-50%,-50%);
+    top: 10%;
+    transform: translate(-50%);
     color: #a08746; 
     font-family: 'Merriweather', serif;
     font-size: 60px; 
-     
+    animation-name: week;
+    animation-duration: 2s;
+}
+
+@keyframes week {
+  0%   {opacity: 0%; top: 5%;}
+  100% {opacity: 100%; top: 10%;}
 }
 
 
 body {
-background-color: #f5f4e9;
+background-color: white;
 }
 
 p.bktomain {
@@ -23,18 +29,20 @@ p.bktomain {
     font-family: 'Merriweather', serif;
     font-size: 20px; 
     text-align: center;
-     
 }
 
 .weeknumbers {
 font-size: 15px; 
 }
 
-a:link {
-    color: #c9d4c5;
+a, a:link, a:visited {
+    color: #a08746;
     text-decoration: none;
 }
 
+a:hover{
+      color: #a24d37;
+}
 .container {
 position: relative;
 text-align: center;
@@ -46,7 +54,7 @@ word-spacing: 50px;
 position: relative;
 text-align: center;
 word-spacing: 120px;
-color: #a24d37;
+color: black;
 }
 
 p.top {
@@ -54,7 +62,7 @@ margin-top: 180px;
 text-align: center;
 padding: 0, 60%;
 line-height: 2;
-color: #a24d37; 
+color: black; 
 font-family: 'Merriweather', serif;
 font-size: 14px; 
 }
@@ -73,7 +81,7 @@ padding-right: 50px;
 text-align: center;
 padding: 0, 60%;
 line-height: 2;
-color: #a24d37; 
+color: black; 
 font-family: 'Merriweather', serif;
 font-size: 13px; 
 }
@@ -88,7 +96,47 @@ padding-right: 70px;
 text-align: center;
 padding: 0, 60%;
 line-height: 2;
-color: #a24d37; 
+color: black; 
 font-family: 'Merriweather', serif;
 font-size: 13px;
 }
+
+.nextweek{
+    color: #a08746;
+    position: absolute;
+    left: 50%;
+    font-family: 'Merriweather', serif;
+    font-size: 14px; 
+    text-align: center;
+    text-decoration: none;
+    transform: translate(80px, 360px);
+    transition: all .3s ease;
+    padding-bottom: 10px;
+}
+
+.nextweek:hover {
+    color: #a24d37;
+    text-decoration: none;
+    transform: translate(85px, 360px);
+    transition: all .3s ease;
+}
+
+.lastweek {
+    color: #a08746;
+    position: absolute;
+    left: 50%;
+    font-family: 'Merriweather', serif;
+    font-size: 14px; 
+    text-align: center;
+    text-decoration: none;
+    transform: translate(-100px, 360px);
+    transition: all .3s ease;
+}
+
+.lastweek:hover {
+    color: #a24d37;
+    text-decoration: none;
+    transform: translate(-105px, 360px);
+    transition: all .3s ease;
+}
+
