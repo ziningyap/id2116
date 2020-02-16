@@ -1,17 +1,23 @@
 .weeknumber {
     position: absolute;
     left:50%;
-    top: 15%;
-    transform: translate(-50%,-50%);
+    top: 50px;
+    transform: translate(-50%);
     color: #a08746; 
     font-family: 'Merriweather', serif;
     font-size: 60px; 
-     
+    animation-name: week;
+    animation-duration: 2s;
+}
+
+@keyframes week {
+  0%   {opacity: 0%; top: 0px;}
+  100% {opacity: 100%; top: 50px;}
 }
 
 
 body {
-background-color: #f5f4e9;
+background-color: white;
 }
 
 p.bktomain {
@@ -59,4 +65,43 @@ img.umbrellatest{
 
    margin-top: 30px;
    
+}
+
+.nextweek{
+    color: #a08746;
+    position: absolute;
+    left: 50%;
+    font-family: 'Merriweather', serif;
+    font-size: 14px; 
+    text-align: center;
+    text-decoration: none;
+    transform: translate(80px, 550px);
+    transition: all .3s ease;
+    padding-bottom: 10px;
+}
+
+.nextweek:hover {
+    color: #a24d37;
+    text-decoration: none;
+    transform: translate(85px, 550px);
+    transition: all .3s ease;
+}
+
+.lastweek {
+    color: #a08746;
+    position: absolute;
+    left: 50%;
+    font-family: 'Merriweather', serif;
+    font-size: 14px; 
+    text-align: center;
+    text-decoration: none;
+    transform: translate(-100px, 550px);
+    transition: all .3s ease;
+}
+
+.lastweek:hover {
+    color: #a24d37;
+    text-decoration: none;
+    transform: translate(-105px, 550px);
+    transition: all .3s ease;
 }
