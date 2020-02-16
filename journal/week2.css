@@ -120,23 +120,3 @@ font-size: 13px;
     transform: translate(85px, 360px);
     transition: all .3s ease;
 }
-
-.lastweek {
-    color: #a08746;
-    position: absolute;
-    left: 50%;
-    font-family: 'Merriweather', serif;
-    font-size: 14px; 
-    text-align: center;
-    text-decoration: none;
-    transform: translate(-100px, 360px);
-    transition: all .3s ease;
-}
-
-.lastweek:hover {
-    color: #a24d37;
-    text-decoration: none;
-    transform: translate(-105px, 360px);
-    transition: all .3s ease;
-}
-
