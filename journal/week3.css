@@ -24,21 +24,24 @@ p.bktomain {
     position: absolute;
     left:50%;
     padding-bottom: 20px;
-    transform: translate(-50%,1015px);
+    transform: translate(-50%,1080px);
     color: #a08746;
     font-family: 'Merriweather', serif;
     font-size: 20px; 
     text-align: center;
-     
 }
 
 .weeknumbers {
 font-size: 15px; 
 }
 
-a:link {
-    color: #c9d4c5;
+a, a:link, a:visited {
+    color: #a08746;
     text-decoration: none;
+}
+
+a:hover{
+    color: #a24d37;
 }
 
 p.top {
@@ -48,7 +51,7 @@ padding-left: 120px;
 padding-right: 120px;
 padding: 0, 60%;
 line-height: 2;
-color: #a24d37; 
+color: black; 
 font-family: 'Merriweather', serif;
 font-size: 13px; 
 }
