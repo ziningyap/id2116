@@ -20,6 +20,23 @@ body {
 background-color: white;
 }
 
+
+
+img.datastatus {
+  position: relative;
+  padding-top: 80px;
+  margin-left: 160px;
+  text-align: center;
+  
+}
+
+img.microbit {
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: 250px;
+}
+
 p.bktomain {
     position: absolute;
     left:50%;
@@ -52,6 +69,16 @@ word-spacing: 50px;
 
 p.top {
 margin-top: 180px;
+text-align: center;
+padding: 10%, 60%;
+line-height: 2;
+color: black; 
+font-family: 'Merriweather', serif;
+font-size: 14px; 
+}
+
+p.top2 {
+margin-top: 40px;
 text-align: center;
 padding: 10%, 60%;
 line-height: 2;

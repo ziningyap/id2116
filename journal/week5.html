@@ -9,11 +9,31 @@
  </head>
  <body>
 <div class="weeknumber">— 05 —</div>
-   <p class="top">We plan on using the umbrella's action to play videos. We also wanted the videos to have some visual similarity to the action of the umbrella. <br>Thus, we came up with the following idea: PLAYING WITH FRUITS!<br>
-     <br>OPENING: launching of fruits<br>SPINNING: spinning blade to blend fruits<br><i>(+bonus: playing with spinning speed)</i><br>
+   <p class="top">This week, we looked into coding our p5.js so that the right video <br> will appear with their corresponding triggers for the individual key video states.        <br>
      
+     <br><br>Our key video states had to include the following functions: 
+
+     <br>
+     <b> 
+       
+     + Videos appearing and playing
+     <br> + Videos hidden and paused
+     <br> + Videos at normal speed vs sped up
+       
+     </b>
+     
+     <img class="datastatus" src="https://lh3.googleusercontent.com/j_L_6KrOjplOP6pdCQFgf65rNblhGoxTg9IPqXeQhl2jIqStGBLBbEmqQkAxL10Ntrh-nSxTFHgjWIqJ7UhGKylyr5aSAMrPlTjCnUk8Fi9VzdZNmg3Yxh-vNgH1Z-ShJy89OlCB"> 
+   </p>
+   <p class="top2">All whilst following the condition that there is smooth transition from each video state to another through the assigned trigger actions and that only one video would be playing at a time.</p>
+   
+   <img class="microbit" src="https://lh4.googleusercontent.com/QGIp0avVd6Mx9wLBICswC1CdY_stMi7LX1TK0SB5BDx4gcKUTW9Hik2q2IOlszxZ-zznZvwBmYScMDmIdYAdian0LEweAjI3MYxe7JoC"> 
+   
+   <p class="top2">Controlling two separate videos concurrently <br> using two different sensors → setting two separate conditions so they can run concurrently.</p>
+   
    <div class="container">
-  <img src="https://i.ibb.co/pbRnK9S/Umbrella-Loop.png" style = "width: 800px;">
+  <video width="320" height="240" autoplay>
+  <source src="movie.mp4" type="video/mp4">
+</video>
 </div>
  <div class="microbit">
    <p class="bottom">
@@ -32,7 +52,7 @@
 <p class="bottom2">
   <br>However, we kept facing the same microbit error 020 when we tried to read the brightness and acceleration data together :-( Apparently, this was too complex or contained a lot of large variables for the microbit. It is able to write line for a single individual input data though.
    </p>
-<img style = " width:300px;" src="https://i.ibb.co/FnvxPZZ/error020.gif">
+   
  </div>
 
  <footer>
