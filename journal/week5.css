@@ -25,7 +25,7 @@ background-color: white;
 img.datastatus {
   position: relative;
   padding-top: 80px;
-  margin-left: 360px;
+  margin-left: 400px;
   text-align: center;
   
 }
@@ -34,7 +34,7 @@ img.microbit {
   position: relative;
   text-align: center;
   padding-top: 40px;
-  margin-left: 360px;
+  margin-left: 400px;
 }
 
 p.bktomain {
@@ -65,7 +65,7 @@ a:hover{
 position: relative;
 text-align: center;
 word-spacing: 50px;
-padding-top: 30px;
+padding-top: 150px;
 }
 
 p.top {
