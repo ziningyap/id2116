@@ -9,7 +9,7 @@
  </head>
  <body>
 <div class="weeknumber">— 05 —</div>
-   <p class="top">This week, we looked into coding our p5.js so that the right video <br> will appear with their corresponding triggers for the individual key video states.        <br>
+   <p class="top">This week, we looked into coding our p5.js so that the right video will appear <br> with their corresponding triggers for the individual key video states.        <br>
      
      <br><br>Our key video states had to include the following functions: 
 
@@ -21,44 +21,32 @@
      <br> + Videos at normal speed vs sped up
        
      </b>
-     
-     <img class="datastatus" src="https://lh3.googleusercontent.com/j_L_6KrOjplOP6pdCQFgf65rNblhGoxTg9IPqXeQhl2jIqStGBLBbEmqQkAxL10Ntrh-nSxTFHgjWIqJ7UhGKylyr5aSAMrPlTjCnUk8Fi9VzdZNmg3Yxh-vNgH1Z-ShJy89OlCB"> 
-   </p>
-   <p class="top2">All whilst following the condition that there is smooth transition from each video state to another through the assigned trigger actions and that only one video would be playing at a time.</p>
+     </p>
+     <img class="datastatus" src="https://lh3.googleusercontent.com/j_L_6KrOjplOP6pdCQFgf65rNblhGoxTg9IPqXeQhl2jIqStGBLBbEmqQkAxL10Ntrh-nSxTFHgjWIqJ7UhGKylyr5aSAMrPlTjCnUk8Fi9VzdZNmg3Yxh-vNgH1Z-ShJy89OlCB" width="500px" height="500px"> 
+   
+   <p class="top2">All whilst following the condition that there is smooth transition from each video state to another through the <br> assigned trigger actions and that only one video would be playing at a time.</p>
    
    <img class="microbit" src="https://lh4.googleusercontent.com/QGIp0avVd6Mx9wLBICswC1CdY_stMi7LX1TK0SB5BDx4gcKUTW9Hik2q2IOlszxZ-zznZvwBmYScMDmIdYAdian0LEweAjI3MYxe7JoC"> 
    
-   <p class="top2">Controlling two separate videos concurrently <br> using two different sensors → setting two separate conditions so they can run concurrently.</p>
+   <p class="top2"><b>Controlling two separate videos concurrently using two different sensors &nbsp;&nbsp;   →&nbsp;&nbsp; setting two separate conditions so they can run concurrently.</b></p>
    
-   <div class="container">
-  <video width="320" height="240" autoplay>
-  <source src="movie.mp4" type="video/mp4">
-</video>
-</div>
  <div class="microbit">
    <p class="bottom">
-     <i>State Transition of the Umbrella</i>
+     To simplify the data that is sent from the microbit to p5, we decided to have the data read on microbit and converted to a fixed response (i.e. “dim). Less data is required to be sent over through the bluetooth UART service, allowing us to solve the previous 020 error.
 </p>
-
-<p class="bottom2">
-  We got started on connecting the microbit's collected data and p5.js together through the bluetooth uart service. Our initial plan was to gather brightness and acceleration data from the microbit and translate these numbers to our intended functions on p5.js
-   </p>
-
-   <img src="https://i.ibb.co/RTXdPWt/bluetooth-uart.png" style = "display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;">
-  
-<p class="bottom2">
-  <br>However, we kept facing the same microbit error 020 when we tried to read the brightness and acceleration data together :-( Apparently, this was too complex or contained a lot of large variables for the microbit. It is able to write line for a single individual input data though.
-   </p>
    
  </div>
+   
+   <div class="container">
+  <video width="500px" height="500px">
+  <source src="video/light and spin 1.mp4" type="video/mp4">
+</video>
+</div>
 
  <footer>
  	<div class= "bktomain">
   		<p class="bktomain"><a href="https://ziningyap.github.io/id2116">back to main</a></p>
-    <div>
+    </div>
     <div class = "nextweek">
     <a class = "nextweek" href = "https://ziningyap.github.io/id2116/journal/week6"> next week ➝ </p>
 </div>

@@ -25,7 +25,7 @@ background-color: white;
 img.datastatus {
   position: relative;
   padding-top: 80px;
-  margin-left: 160px;
+  margin-left: 360px;
   text-align: center;
   
 }
@@ -34,14 +34,14 @@ img.microbit {
   position: relative;
   text-align: center;
   padding-top: 40px;
-  margin-left: 250px;
+  margin-left: 360px;
 }
 
 p.bktomain {
     position: absolute;
     left:50%;
     padding-bottom: 20px;
-    transform: translate(-50%,1080px);
+    transform: translate(-50%, 280px);
     color: #a08746;
     font-family: 'Merriweather', serif;
     font-size: 20px; 
@@ -60,6 +60,7 @@ a, a:link, a:visited {
 a:hover{
       color: #a24d37;
 }
+
 .container {
 position: relative;
 text-align: center;
@@ -95,7 +96,7 @@ text-align: center;
 
 p.bottom {
 margin-top: -10px;
-padding-bottom: 40px;
+padding-top: 40px;
 padding-left: 50px;
 padding-right: 50px;
 text-align: center;
@@ -106,20 +107,6 @@ font-size: 13px;
 }
 
 
-p.bottom2{
-
-margin-top: 20px;
-padding-bottom: 40px;
-padding-left: 70px;
-padding-right: 70px;
-text-align: center;
-padding: 0, 60%;
-line-height: 2;
-color: black; 
-font-family: 'Merriweather', serif;
-font-size: 13px;
-}
-
 .nextweek{
     color: #a08746;
     position: absolute;
@@ -128,7 +115,7 @@ font-size: 13px;
     font-size: 14px; 
     text-align: center;
     text-decoration: none;
-    transform: translate(80px, 550px);
+    transform: translate(80px, 150px);
     transition: all .3s ease;
     padding-bottom: 10px;
 }
@@ -136,7 +123,7 @@ font-size: 13px;
 .nextweek:hover {
     color: #a24d37;
     text-decoration: none;
-    transform: translate(85px, 550px);
+    transform: translate(85px, 150px);
     transition: all .3s ease;
 }
 
@@ -148,14 +135,13 @@ font-size: 13px;
     font-size: 14px; 
     text-align: center;
     text-decoration: none;
-    transform: translate(-100px, 550px);
+    transform: translate(-100px, 150px);
     transition: all .3s ease;
 }
 
 .lastweek:hover {
     color: #a24d37;
     text-decoration: none;
-    transform: translate(-105px, 550px);
+    transform: translate(-105px, 150px);
     transition: all .3s ease;
 }
-
