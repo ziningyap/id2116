@@ -44,7 +44,7 @@ function mousePressed(){
 }
 
 
-function mouseReleased(){
+function mousePressed(){
   off()
   print("mouse no presso!");
 }
