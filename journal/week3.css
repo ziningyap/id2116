@@ -20,19 +20,14 @@ body {
 background-color: white;
 }
 
-p.bktomain {
-    position: absolute;
-    left:50%;
-    padding-bottom: 20px;
-    transform: translate(-50%,1080px);
-    color: #a08746;
-    font-family: 'Merriweather', serif;
-    font-size: 20px; 
-    text-align: center;
-}
-
 .weeknumbers {
 font-size: 15px; 
+}
+
+.container {
+position: relative;
+text-align: center;
+word-spacing: 100px;
 }
 
 a, a:link, a:visited {
@@ -42,6 +37,17 @@ a, a:link, a:visited {
 
 a:hover{
     color: #a24d37;
+}
+
+p.p5 {
+text-align: center;
+padding-left: 120px;
+padding-right: 120px;
+padding: 0, 60%;
+line-height: 2;
+color: black; 
+font-family: 'Merriweather', serif;
+font-size: 13px; 
 }
 
 p.top {
@@ -59,7 +65,7 @@ font-size: 13px;
 .microbit{
   position: absolute;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 180px;
 
 }
 
@@ -70,6 +76,17 @@ img.umbrellatest{
    
 }
 
+p.bktomain {
+    position: absolute;
+    left:50%;
+    padding-bottom: 20px;
+    transform: translate(-50%,1400px);
+    color: #a08746;
+    font-family: 'Merriweather', serif;
+    font-size: 20px; 
+    text-align: center;
+}
+
 .nextweek{
     color: #a08746;
     position: absolute;
@@ -78,7 +95,7 @@ img.umbrellatest{
     font-size: 14px; 
     text-align: center;
     text-decoration: none;
-    transform: translate(80px, 550px);
+    transform: translate(80px, 710px);
     transition: all .3s ease;
     padding-bottom: 10px;
 }
@@ -86,7 +103,7 @@ img.umbrellatest{
 .nextweek:hover {
     color: #a24d37;
     text-decoration: none;
-    transform: translate(85px, 550px);
+    transform: translate(85px, 710px);
     transition: all .3s ease;
 }
 
@@ -98,13 +115,13 @@ img.umbrellatest{
     font-size: 14px; 
     text-align: center;
     text-decoration: none;
-    transform: translate(-100px, 550px);
+    transform: translate(-100px, 710px);
     transition: all .3s ease;
 }
 
 .lastweek:hover {
     color: #a24d37;
     text-decoration: none;
-    transform: translate(-105px, 550px);
+    transform: translate(-105px, 710px);
     transition: all .3s ease;
 }
