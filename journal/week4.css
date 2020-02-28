@@ -93,6 +93,18 @@ font-family: 'Merriweather', serif;
 font-size: 13px;
 }
 
+.spin{
+    position: relative;
+    text-align: center;
+  }
+  
+  
+.light{
+    position: relative;
+    text-align: center;
+  }
+
+
 .nextweek{
     color: #a08746;
     position: absolute;
@@ -130,14 +142,4 @@ font-size: 13px;
     text-decoration: none;
     transform: translate(-105px, 732px);
     transition: all .3s ease;
-}
-
-.spin{
-  position: relative;
-  text-align: center;
-}
-
-.light{
-  position: relative;
-  text-align: center;
 }
