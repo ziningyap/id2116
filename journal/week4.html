@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="week4.css">
+   <title>04</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+         
+ </head>
+ <body>
+<div class="weeknumber">— 04 —</div>
+   <p class="top">We plan on using the umbrella's action to play videos. We also wanted the videos to have some visual similarity to the action of the umbrella. <br>Thus, we came up with the following idea: PLAYING WITH FRUITS!<br>
+     <br>OPENING: launching of fruits<br>SPINNING: spinning blade to blend fruits<br><i>(+bonus: playing with spinning speed)</i><br>
+     
+   <div class="container">
+  <img src="https://i.ibb.co/pbRnK9S/Umbrella-Loop.png" style = "width: 800px;">
+</div>
+ <div class="microbit">
+   <p class="bottom">
+     <i>State Transition of the Umbrella</i>
+</p>
+
+<p class="bottom2">
+  We got started on connecting the microbit's collected data and p5.js together through the bluetooth uart service. Our initial plan was to gather brightness and acceleration data from the microbit and translate these numbers to our intended functions on p5.js
+   </p>
+
+   <img src="https://i.ibb.co/RTXdPWt/bluetooth-uart.png" style = "display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;">
+ 
+<p class="bottom2">
+  <br>However, we kept facing the same microbit error 020 when we tried to read the brightness and acceleration data together :-( Apparently, this was too complex or contained a lot of large variables for the microbit. It is able to write line for a single individual input data though.
+   </p>
+   
+<img style = " width:300px;" src="https://i.ibb.co/FnvxPZZ/error020.gif">
+   
+<p class="bottom2">
+  <br>Despite this, we decided that it would still be good to make sure that the data values tracked by the microbit was able accurately translated to relevant function commands coded in p5 for the videos. For instance, the controlling of video playback and playback speed by light level of surroundings and acceleration strength respectively.
+</p>
+
+<div class="video">
+    <video class="spin" width="500px" controls>
+    <source src="video/spin mapped with sound.mp4" type="video/mp4">
+    </video>
+  
+    <video class="light" width="350px" controls>
+    <source src="video/light mapped with sound.mp4" type="video/mp4">
+    </video>
+</div>
+
+   
+</div>
+
+
+ <footer>
+ 	<div class= "bktomain">
+  		<p class="bktomain"><a href="https://ziningyap.github.io/id2116">back to main</a></p>
+    <div>
+    <div class = "nextweek">
+    <a class = "nextweek" href = "https://ziningyap.github.io/id2116/journal/week5"> next week ➝ </p>
+</div>
+    <div class = "lastweek">
+    <a class = "lastweek" href = "https://ziningyap.github.io/id2116/journal/week3"> last week ← </a>
+</div>
+ </footer>
+ 
+ </html>
