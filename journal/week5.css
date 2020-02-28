@@ -96,9 +96,7 @@ text-align: center;
 
 p.bottom {
 margin-top: -10px;
-padding-top: 40px;
-padding-left: 50px;
-padding-right: 50px;
+padding: 10%, 60%;
 text-align: center;
 line-height: 2;
 color: black; 
