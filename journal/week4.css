@@ -93,11 +93,17 @@ font-size: 13px;
     text-align: center;
   }
 
+.video{
+position: relative;
+text-align: center;
+word-spacing: 100px;
+}
+
 p.bktomain {
     position: absolute;
     left:50%;
     padding-bottom: 20px;
-    transform: translate(-50%,1780px);
+    transform: translate(-50%,500px);
     color: #a08746;
     font-family: 'Merriweather', serif;
     font-size: 20px; 
@@ -112,7 +118,7 @@ p.bktomain {
     font-size: 14px; 
     text-align: center;
     text-decoration: none;
-    transform: translate(80px, 900px);
+    transform: translate(80px, 200px);
     transition: all .3s ease;
     padding-bottom: 10px;
 }
@@ -120,7 +126,7 @@ p.bktomain {
 .nextweek:hover {
     color: #a24d37;
     text-decoration: none;
-    transform: translate(85px, 900px);
+    transform: translate(85px, 200px);
     transition: all .3s ease;
 }
 
@@ -132,13 +138,13 @@ p.bktomain {
     font-size: 14px; 
     text-align: center;
     text-decoration: none;
-    transform: translate(-100px, 900px);
+    transform: translate(-100px, 200px);
     transition: all .3s ease;
 }
 
 .lastweek:hover {
     color: #a24d37;
     text-decoration: none;
-    transform: translate(-105px, 900px);
+    transform: translate(-105px, 200px);
     transition: all .3s ease;
 }
