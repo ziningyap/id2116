@@ -51,7 +51,7 @@ font-size: 13px;
 }
 
 p.top {
-margin-top: 30px;
+margin-top: -120px;
 text-align: center;
 padding-left: 120px;
 padding-right: 120px;
@@ -80,7 +80,7 @@ p.bktomain {
     position: absolute;
     left:50%;
     padding-bottom: 20px;
-    transform: translate(-50%,1400px);
+    transform: translate(-50%,1945px);
     color: #a08746;
     font-family: 'Merriweather', serif;
     font-size: 20px; 
@@ -95,7 +95,7 @@ p.bktomain {
     font-size: 14px; 
     text-align: center;
     text-decoration: none;
-    transform: translate(80px, 710px);
+    transform: translate(80px, 980px);
     transition: all .3s ease;
     padding-bottom: 10px;
 }
@@ -103,7 +103,7 @@ p.bktomain {
 .nextweek:hover {
     color: #a24d37;
     text-decoration: none;
-    transform: translate(85px, 710px);
+    transform: translate(85px, 980px);
     transition: all .3s ease;
 }
 
@@ -115,13 +115,13 @@ p.bktomain {
     font-size: 14px; 
     text-align: center;
     text-decoration: none;
-    transform: translate(-100px, 710px);
+    transform: translate(-100px, 980px);
     transition: all .3s ease;
 }
 
 .lastweek:hover {
     color: #a24d37;
     text-decoration: none;
-    transform: translate(-105px, 710px);
+    transform: translate(-105px, 980px);
     transition: all .3s ease;
 }
