@@ -1,75 +1,126 @@
+body {
+  background-color: white;
+  margin-bottom: 60px;
+}
 
-    body {
-      background-color: white;
-      margin-bottom: 60px;
-    }
-    
-    h1 {
-      position: absolute;
-      right: 0;
-      left:  70%;
-      color: #c2cacf;
-      font-family: 'Inria Serif', serif;
-      font-size: 35px; 
-      text-align: center;
-      height: auto;
-      width: 300px;
-      
-    }
-
-    p {
-      color: grey;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 16x; 
-      text-align: left;
-      height: auto;
-      width: 900px;
-      position:absolute;
-      top: 30%;
-    }
-    
-    img {
-    position: absolute;
-    left: 40%;
-    bottom:-20%;
-    }
-    
-    .strengths{
-      position: absolute;
-      color: grey;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 20px; 
-      text-align: left;
-      letter-spacing: 0.2px;
-      top: 70%
-     }
-
+h1 {
+  position: absolute;
+  right: 0;
+  left:  70%;
+  color: #c2cacf;
+  font-family: 'Inria Serif', serif;
+  font-size: 35px; 
+  text-align: center;
+  height: auto;
+  width: 300px;
   
-  
-   ul {
-      position: absolute;
-      color: grey;
-      font-family: 'Open Sans', sans-serif, light;
-      font-size: 15px; 
-      text-align: left;
-      height: auto;
-      width: 900px;
-        }
+}
 
-  .partner{
-      position: absolute;
-      color: grey;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 20px; 
-      text-align: left;
-      letter-spacing: 0.2px;
-      top: 100%;
-     }
+.box {
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px; 
+  position:absolute;
+  text-align: center;
+  top: 280px;
+  left: 120px;
+}
+
+img.hello{
+position:absolute;
+text-align:right;
+left: 20px;
+top: 20px;
+
+}
+
+img.horse{
+ position: absolute;
+ margin-left: 300px;
+ top: 350px;
+ 
+}
+
+
+.strengths{
+  position: absolute;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0.2px;
+  top: 370px;
+  margin-left: 560px;
+ }
+
+.traits{
+  position: absolute;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0.2px;
+  top: 400px;
+  margin-left: 635px;
+ }
+
+
+img {
+position: absolute;
+text-align: center;
+left: 40%;
+bottom:-20%;
+}
+
+
+.partner{
+  position: absolute;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px; 
+  text-align: left;
+  letter-spacing: 0.2px;
+  left:20px;
+  top: 860px;
+ }
 
 
 a{
-      color: #b8d8be;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 18px;
+  color: #b8d8be;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
-     
+
+button {
+color: #1D9AF2;
+background-color: white;
+border: 0px;
+border-radius: 0px;
+padding: 0 0px;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+button:hover {
+animation: swing 0.6s ease;
+animation-iteration-count: 1;
+}
+@keyframes swing {
+15% {
+transform: translateX(5px);
+}
+30% {
+transform: translateX(-5px);
+}
+50% {
+transform: translateX(3px);
+}
+65% {
+transform: translateX(-3px);
+}
+80% {
+transform: translateX(2px);
+}
+100% {
+transform: translateX(0);
+}
+}
