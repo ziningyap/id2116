@@ -94,10 +94,15 @@ font-family: 'Merriweather', serif;
 font-size: 13px;
 }
 
-.video {
+.video1 {
   position: relative;
   text-align: center;
   margin-top: 1800px;
+}
+
+.video2 {
+  position: relative;
+  text-align: center;
 }
 
 p.bktomain {
